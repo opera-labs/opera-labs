@@ -1,0 +1,79 @@
+/** main.css
+ *
+ *  Main stylesheet for Hyla's webpages.
+ */
+body {
+  background-color: #e0d9b0;
+  font-family: "SF Pro", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14pt;
+  opacity: 0.8;
+}
+h1 {
+  background-color: #222222;
+  color: #e0ca70;
+  font-size: 32pt;
+  font-weight: 900;
+  margin: auto;
+  padding: 1.125% 10px;
+  text-align: left;
+}
+#content {
+  height: 58%;
+  padding: 10px;
+}
+#foot {
+  font-weight: 300;
+  text-align: center;
+  vertical-align: bottom;
+  width: 100%;
+}
+#foot a {
+  color: black;
+  text-decoration: underline;
+}
+#main {
+  text-align: left;
+  padding: 2.5% 20%;
+  margin: auto;
+}
+#nav {
+  align: center;
+  background-color: #222222;
+  width: 100%;
+}
+#nav li {
+  background-color: #222222;
+  border-radius: 40px;
+  cursor: auto;
+  float: left;
+  padding: 5px 10px;
+  transition: background-color 0.1s ease-in-out 0.07s;
+}
+#nav li a {
+  align: center;
+  color: #bbbbbb;
+  text-align: left;
+  text-decoration: none;
+  height: 100%;
+}
+#nav li:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+#navcontainer {
+  background-color: #222222;
+  border-radius: 20pt;
+  box-shadow: 0 1px 2px 0;
+  padding: 10px;
+  width: 100%;
+}
+p {
+  text-align: left;
+}
+
